@@ -1,6 +1,6 @@
 ###Diagrama de Escolha de Endereço
 
-'''mermaid
+´´´mermaid
 sequenceDiagram
   participant U as Usuário
   participant A as APP (FroentEnd)
