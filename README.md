@@ -2,7 +2,7 @@
 
 ```mermaid
 sequenceDiagram
-  participant U as Usuário
+  actor U as Usuário
   participant A as APP (FroentEnd)
   participant B as Backend
   participant D as Banco de Dados
@@ -14,3 +14,6 @@ sequenceDiagram
   Note over B: Calcula distâncias em KM
   B->>A: Retorna lista de endereços + distâncias 
   A->>U: Exibe lista de endereços com KM
+
+
+
